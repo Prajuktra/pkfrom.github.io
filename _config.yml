@@ -1,0 +1,94 @@
+# Site settings
+destination: public
+url: "http://pkfrom.github.io"
+title: "Fromz Prajuktar"
+description: "Personal website and blog of Aron Bordin, blogging mainly for tech."
+keywords: "aron, barreira, bordin, developer, researcher, blog"
+favicon: "/img/favicon.ico"
+black-favicon: "/img/favicon.png"
+google-tracking-id: "UA-55654594-3"
+disqus-shortname: "pkfrom"
+
+#email: "pkfromz@gmail.com"
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+#  Blog: 'blog'
+#  Career: 'career'
+#  Awards: 'awards'
+  Contact: 'contact'
+
+# About variables
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "Hi There!! "
+  - text: "Software Developer by day, Designer by night."
+
+me-img: "/img/me.jpg"
+
+# Blog variables
+paginate: 15
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: False
+
+# Career variables
+
+events:
+  - image: "/img/timeline/spidertocat.png"
+    date: "September 2013 - Today"
+    description: "Saving the neighborhood!"
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "September 2007 - August 2013"
+    description: "Started coding"
+
+
+awards:
+  - title: "OBFEP - Brazilian Physics Olympiad - Bronze Medal"
+    date: "2014"
+  - title: "OBA - Brazilian Astronomy Olympiad - Golden Medal"
+    date: "2014"
+  - title: "OBA - Brazilian Astronomy Olympiad - Silver Medal"
+    date: "2013"
+
+# First image of the Career timeline
+career-img: "/img/career/computer.png"
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "rss"
+    url: "/feed.xml"
+  - title: "facebook"
+    url: "https://facebook.com/pkfrom"
+  - title: "twitter"
+    url: "https://twitter.com/pkfrom"
+  - title: "github"
+    url: "https://github.com/pkfrom"
+  - title: "linkedin"
+    url: "https://th.linkedin.com/in/pkfrom"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "README.md", "scripts", "public"]
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jemoji
