@@ -1,6 +1,6 @@
 # Site settings
 destination: public
-url: "http://me.ifromz.info"
+url: "https://pkfrom.github.io"
 title: "Fromz Prajuktar"
 description: "Personal website and blog of Fromz Prajuktar, blogging mainly for tech."
 keywords: "fromz, prajuktar, kaewmanee, developer, researcher, blog"
@@ -9,7 +9,7 @@ black-favicon: "/img/favicon.png"
 google-tracking-id: "UA-55654594-3"
 disqus-shortname: "pkfrom"
 
-#force-https: True
+force-https: True
 
 #email: "pkfromz@gmail.com"
 # Navigation bar links
