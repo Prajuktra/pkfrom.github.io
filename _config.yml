@@ -1,13 +1,15 @@
 # Site settings
 destination: public
-url: "http://pkfrom.github.io"
+url: "https://me.ifromz.info"
 title: "Fromz Prajuktar"
-description: "Personal website and blog of Aron Bordin, blogging mainly for tech."
-keywords: "aron, barreira, bordin, developer, researcher, blog"
+description: "Personal website and blog of Fromz Prajuktar, blogging mainly for tech."
+keywords: "fromz, prajuktar, kaewmanee, developer, researcher, blog"
 favicon: "/img/favicon.ico"
 black-favicon: "/img/favicon.png"
 google-tracking-id: "UA-55654594-3"
 disqus-shortname: "pkfrom"
+
+force-https: True
 
 #email: "pkfromz@gmail.com"
 # Navigation bar links
@@ -35,8 +37,43 @@ lines: # You can add HTML Tags in the Text
 
 me-img: "/img/me.jpg"
 
-# Blog variables
-paginate: 15
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: False
+fb-share: True
+twitter-share: True
+linkedin-share: False
+reddit-share: False
+google-plus-share: True
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
+
+disqus-shortname: "pkfrom"
+
+syntax-highlight: True
 
 paginate_path: "blog/page:num"
 
@@ -58,11 +95,7 @@ events:
 
 
 awards:
-  - title: "OBFEP - Brazilian Physics Olympiad - Bronze Medal"
-    date: "2014"
-  - title: "OBA - Brazilian Astronomy Olympiad - Golden Medal"
-    date: "2014"
-  - title: "OBA - Brazilian Astronomy Olympiad - Silver Medal"
+  - title: "Awards"
     date: "2013"
 
 # First image of the Career timeline
@@ -84,7 +117,7 @@ social:
 404-img: "/img/labtocat.png"
 
 # Exclusion list from the generated _site
-exclude: ["Rakefile", "LICENSE", "README.md", "scripts", "public"]
+exclude: ["Rakefile", "CNAME","LICENSE", "README.md", "scripts", "public"]
 
 sass:
   style: compressed
