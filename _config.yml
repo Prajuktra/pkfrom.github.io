@@ -1,15 +1,15 @@
 # Site settings
 destination: public
-url: "https://pkfrom.github.io"
+url: "https://ifromz.info"
 title: "Fromz Prajuktar"
 description: "Personal website and blog of Fromz Prajuktar, blogging mainly for tech."
 keywords: "fromz, prajuktar, kaewmanee, developer, researcher, blog"
-favicon: "/img/favicon.ico"
+favicon: "/img/favicon.png"
 black-favicon: "/img/favicon.png"
-google-tracking-id: "UA-55654594-3"
+google-tracking-id: "UA-71824673-1"
 disqus-shortname: "pkfrom"
 
-force-https: True
+#force-https: True
 
 #email: "pkfromz@gmail.com"
 # Navigation bar links
@@ -32,10 +32,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Hi There!! "
-  - text: "Software Developer by day, Designer by night."
+  - text: "Hi. Welcome!! "
+  - text: "I'm Software Developer, and designer some time."
 
-me-img: "/img/me.jpg"
+me-img: "/img/fromz1x1.png"
 
 ################
 # Web app mode #
@@ -103,8 +103,6 @@ career-img: "/img/career/computer.png"
 
 # Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
 social:
-  - title: "rss"
-    url: "/feed.xml"
   - title: "facebook"
     url: "https://facebook.com/pkfrom"
   - title: "twitter"
@@ -117,7 +115,7 @@ social:
 404-img: "/img/labtocat.png"
 
 # Exclusion list from the generated _site
-exclude: ["Rakefile", "CNAME","LICENSE", "README.md", "scripts", "public"]
+exclude: ["Rakefile", "CNAME","LICENSE", "README.md", 'info.mk', "scripts", "public", "unesp"]
 
 sass:
   style: compressed
