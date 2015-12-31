@@ -9,7 +9,7 @@ black-favicon: "/img/favicon.png"
 google-tracking-id: "UA-71824673-1"
 disqus-shortname: "pkfrom"
 
-#force-https: True
+force-https: False
 
 #email: "pkfromz@gmail.com"
 # Navigation bar links
