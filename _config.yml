@@ -10,7 +10,7 @@ black-favicon: "/img/favicon.png"
 google-tracking-id: "UA-71824673-1"
 disqus-shortname: "pkfrom"
 
-force-https: true
+#force-https: False
 
 #email: "pkfrom@iinbrand.com"
 author: ifromz.
