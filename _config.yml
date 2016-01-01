@@ -1,17 +1,18 @@
 # Site settings
-destination: public
+#destination: public
 url: "https://ifromz.info"
+baseurl: ""
 title: "Fromz Prajuktar"
-description: "Personal website and blog of Fromz Prajuktar, blogging mainly for tech."
+description: "Fromz Prajuktar, Personal website and blog, blogging mainly for tech."
 keywords: "fromz, prajuktar, kaewmanee, developer, researcher, blog"
 favicon: "/img/favicon.png"
 black-favicon: "/img/favicon.png"
 google-tracking-id: "UA-71824673-1"
 disqus-shortname: "pkfrom"
 
-force-https: False
+force-https: true
 
-#email: "pkfromz@gmail.com"
+email: "pkfrom@iinbrand.com"
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
 # In the default page it will point to the preview of the last post
@@ -24,10 +25,10 @@ pages_list:
   Contact: 'contact'
 
 # About variables
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
+dynamic-typing: true
+shuffle: false # Shuffle the lines.
 loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
+loop-count: false # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
 delete-delay: 5000

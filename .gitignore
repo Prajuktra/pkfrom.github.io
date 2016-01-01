@@ -7,7 +7,13 @@
 auto-save-list
 tramp
 .\#*
-public/*
-_site/*
-_deploy/*
+/public
+/_site
+/_deploy
 Rakefile
+/.idea
+.DS_Store
+.sass-cache
+.jekyll-metadata
+serve.bat
+serve.sh
