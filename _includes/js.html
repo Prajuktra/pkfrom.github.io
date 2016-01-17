@@ -116,12 +116,9 @@
 <script type="text/javascript">
 
     var myQuotes = new Array();
-    {%
-        for line in site.lines %}
+{% for line in site.lines %}
     myQuotes.push("{{ line.text }}");
-    {%
-        endfor %
-    }
+{% endfor %}
 
     function shuffle(array) {
         var currentIndex = array.length, temporaryValue, randomIndex;
@@ -142,47 +139,19 @@
         return array;
     }
 
-    {%
-        if site.shuffle %}
+{% if site.shuffle %}
     shuffle(myQuotes)
-    {%
-        endif %
-    }
+{% endif %}
 
     $(".intro-text").typed({
         strings: myQuotes,
-        typeSpeed: {
-    {
-        site.type - speed
-    }
-    },
-    backDelay: {
-        {
-            site.delete - delay
-        }
-    }
-    ,
-    startDelay: {
-        {
-            site.start - delay
-        }
-    }
-    ,
-    loop: {
-        {
-            site..loop
-        }
-    }
-    ,
-    loopCount: {
-        {
-            site.loop - count
-        }
-    }
-    ,
-    cursorChar: ""
-    })
-    ;
+        typeSpeed: {{ site.type - speed }},
+    	backDelay: {{ site.delete - delay }},
+    	startDelay: {{ site.start - delay }},
+    	loop: {{ site..loop }},
+    	loopCount: {{ site.loop - count }},
+    	cursorChar: ""
+    });
 </script>
 
 <!-- Dynamic Typing End  -->
