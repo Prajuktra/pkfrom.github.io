@@ -21,8 +21,8 @@ author: iFromz.
 pages_list:
   About: 'about'
 #  Blog: 'blog'
-#  Career: 'career'
-#  Awards: 'awards'
+  Career: 'career'
+  Awards: 'awards'
   Contact: 'contact'
 
 # About variables
