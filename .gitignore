@@ -17,3 +17,4 @@ Rakefile
 .jekyll-metadata
 serve.bat
 serve.sh
+Gemfile.lock
