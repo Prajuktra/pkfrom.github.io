@@ -10,10 +10,10 @@ black-favicon: "/img/favicon.png"
 google-tracking-id: "UA-71824673-1"
 disqus-shortname: "pkfrom"
 
-#force-https: False
+force-https: True
 
 email: "pkfromz@gmail.com"
-author: iFromz.
+author: "iFromz"
 # Navigation bar links
 # Blog link in the blog and post pages will point to the blog.html#blog
 # In the default page it will point to the preview of the last post
@@ -22,7 +22,7 @@ pages_list:
   About: 'about'
 #  Blog: 'blog'
   Timeline: 'timeline'
-  Awards: 'awards'
+  Portfolio: 'portfolio'
   Contact: 'contact'
 
 # About variables
@@ -35,7 +35,8 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Hi. Welcome!! "
-  - text: "I'm Software Developer, and designer some time."
+  - text: "I'm Software Developer, and web designer some time."
+  - text: ""
 
 me-img: "/img/fromz1x1.png"
 
@@ -83,25 +84,32 @@ events:
 #  - image: "/img/career/gsoc_2015.jpg"
 #    date: "March 2015 - August 2015"
 #    description: "description"
-#  - image: "/img/career/unesp.jpg"
-#    date: "April 2015 - Until now"
-#    description: "description"
-  - image: "/img/career/triata.jpg"
-    date: "September 2013 - January 2015"
-    description: "description"
   - image: "/img/career/issoftware.jpg"
-    date: "February 2012 - December 2014"
-    description: "description"
+    date: "Sep 2013 - 2015"
+    description: "Software Development @ <a href=\"http://todayissoftware.com\" target=\"_blank\">IS Software Co., Ltd.</a><br>Development CMMS System (PHP, MySQL, SQL Server)"
   - image: "/img/career/cornerme.jpg"
-    date: "2010 or 2011"
-    description: "description"
+    date: "2012 - 2013"
+    description: "Programmer @ <a href=\"http://cornerme.net\" target=\"_blank\">Cornerme Co., Ltd.</a><br>Interactive development on software <a href=\"http://www.ventuz.com\" target=\"_blank\">Ventuz Designer</a> (.NET)"
+  - image: "/img/career/eng.jpg"
+    date: "2009 - 2013"
+    description: "Bachelor of Engineering @ (<a href=\"http://engineer.utcc.ac.th\" target=\"_blank\">Computer Engineering</a>) in The University of the Thai Chamber of Commerce (<a href=\"http://www.utcc.ac.th\" target=\"_blank\">UTCC</a>) "
+  - image: "/img/career/controller.jpg"
+    date: "2006 - 2009"
+    description: "Certificate of Vocational Education @ Electronics in <a href=\"http://bits.ac.th\" target=\"_blank\">Bangkok College Of Industrial Technology</a> "
 
 
 awards:
-  - title: "title"
-    date: "2014"
-#  - title: "title"
-#    date: "2014"
+  - title: "<a href=\"http://engineer.utcc.ac.th/upload/News/Attachment/E6RT26235QEISCMDOCUO07A1MIKJZ8MYMYY51E.pdf\" target=\"_blank\">รางวัลชนะเลิศ</a><br> โครงการประกวดสิ่งประดิษฐ์และนวัตกรรม คณะวิศวกรรมศาสตร์"
+    date: "ประจำปี พ.ศ.2555"
+  - title: "Create the <a href=\"//cdn.ifromz.info/profile/Interactive_Touch_Marker.pdf\" target=\"_blank\">Interactive Touch Table</a><br>  product for <a href=\"//www.wjtechnology.net\" target=\"_blank\">WJ Technology</a>"
+    date: ""
+  - title: "ระบบบันทึกการประชุม Drug Committee and Regulation Online"
+    date: "<a href=\"http://www.fda.moph.go.th/\" target=\"_blank\">สํานักงานคณะกรรมการอาหารและยา</a>"
+  - title: "website มูลนิธิปวีณาหงสกุลเพื่อเด็กและสตรี <br><a href=\"http://www.pavenafoundation.or.th\" target=\"_blank\">www.pavenafoundation.or.th</a>"
+    date: ""
+#  - title: "website iinbrand.com <br><a href=\"http://iinbrand.com\" target=\"_blank\">iinbrand.com</a>"
+#    date: ""
+
 
 # First image of the Career timeline
 career-img: "/img/career/computer.png"
@@ -116,6 +124,8 @@ social:
     url: "https://github.com/pkfrom"
   - title: "linkedin"
     url: "https://linkedin.com/in/pkfrom"
+  - title: "bitcoin"
+    url: "https://blockchain.info/address/1ERGU2bUPc8vr8nXmTpzbC3sWfPdnQXE4F"
 
 404-img: "/img/labtocat.png"
 
