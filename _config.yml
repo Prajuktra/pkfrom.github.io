@@ -35,8 +35,9 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Hi. Welcome!! "
-  - text: "I'm Software Developer, and web designer some time."
-  - text: ""
+  - text: "I'm Software Developer, (designer sometimes.)"
+  - text: "Keep at it. Never give up !"
+  - text: "I'll either find a way or make one myself."
 
 me-img: "/img/fromz1x1.png"
 
