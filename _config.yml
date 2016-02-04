@@ -94,7 +94,7 @@ events:
   - image: "/img/career/eng.jpg"
     date: "2009 - 2013"
     description: "Bachelor of Engineering @ (<a href=\"http://engineer.utcc.ac.th\" target=\"_blank\">Computer Engineering</a>) in The University of the Thai Chamber of Commerce (<a href=\"http://www.utcc.ac.th\" target=\"_blank\">UTCC</a>) "
-  - image: "/img/career/controller.jpg"
+  - image: "/img/career/bits.png"
     date: "2006 - 2009"
     description: "Certificate of Vocational Education @ Electronics in <a href=\"http://bits.ac.th\" target=\"_blank\">Bangkok College Of Industrial Technology</a> "
 
