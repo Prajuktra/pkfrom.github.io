@@ -2,9 +2,9 @@
 #destination: public
 url: "https://ifromz.info"
 baseurl: ""
-title: "Fromz Prajuktar"
-description: "Fromz Prajuktar, Personal website and Profile."
-keywords: "fromz, prajuktar, kaewmanee, developer, researcher, blog"
+title: "Fromz Prajuktra"
+description: "Fromz Prajuktra, Personal website and Profile."
+keywords: "fromz, prajuktra, kaewmanee, developer, researcher, blog"
 favicon: "/img/favicon.png"
 black-favicon: "/img/favicon.png"
 google-tracking-id: "UA-71824673-1"
@@ -100,7 +100,7 @@ events:
 
 
 awards:
-  - title: "<a href=\"http://engineer.utcc.ac.th/upload/News/Attachment/E6RT26235QEISCMDOCUO07A1MIKJZ8MYMYY51E.pdf\" target=\"_blank\">รางวัลชนะเลิศ</a><br> โครงการประกวดสิ่งประดิษฐ์และนวัตกรรม คณะวิศวกรรมศาสตร์"
+  - title: "<a href=\"https://engineer.utcc.ac.th/upload/News/Attachment/50/E6RT26235QEISCMDOCUO07A1MIKJZ8MYMYY51E.pdf\" target=\"_blank\">รางวัลชนะเลิศ</a><br> โครงการประกวดสิ่งประดิษฐ์และนวัตกรรม คณะวิศวกรรมศาสตร์"
     date: "ประจำปี พ.ศ.2555"
   - title: "Create the <a href=\"//cdn.ifromz.info/profile/Interactive_Touch_Marker.pdf\" target=\"_blank\">Interactive Touch Table</a><br>  product for <a href=\"//www.wjtechnology.net\" target=\"_blank\">WJ Technology</a>"
     date: ""
